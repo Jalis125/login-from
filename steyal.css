@@ -1,0 +1,143 @@
+
+  *{margin: 0;
+    padding: 0;
+    }
+    
+    .contai{
+    width: 100%;
+    height: 100vh;
+    font-family: sans-serif;
+    background:rgb(106, 90, 205);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    .caed{
+    width: 350px;
+    height: 500px;
+    box-shadow:0 0 40px 20px rgba(0,0,0,0.26) ;
+    
+    
+    
+    }
+    .inner-foront{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-image:linear-gradient( rgba(16, 14, 119, 0.61),rgba(52, 125, 77, 0.6)), url(pn.png);
+    background-size: cover;
+    
+    
+    }
+    .carrd-fornt .carrd-back {
+    
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-position: center ;
+    background-size: cover;
+    padding: 55px;
+    box-sizing: border-box;
+    backface-visibility: hidden;
+    
+    }
+    .carrd-back{
+    transform: rotate(180deg);
+    
+    
+    
+    }
+    .carrd-fornt h2{
+    font-weight: normal;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(206, 67, 183);
+    font-family: arial black;
+    }
+    .input-box{
+    
+    width: 100%;
+    background:transparent;
+
+    margin: 6px 0;
+    height: 32px;
+    border-radius: 20px;
+    padding: 0 10px;
+    box-sizing: border-box;
+    outline: none;
+    text-align: center;
+    color: #fff;
+    border: 1px solid turquoise;
+    }
+    .carrd-fornt{
+      padding-top: 150px;
+      text-align: justify;
+
+    }
+    .submit-btn{
+color:#ffff;
+background-color: blueviolet;
+border: 1px solid black;
+outline: none;
+width: 100%; 
+border-radius: 20px;
+padding: 9px;
+    }
+    .submit-btn:hover{
+
+color: black;
+background-color: white;
+text-transform: uppercase;
+font-family: arial black;
+
+
+
+    }
+
+    .chckbox {
+      margin: auto;
+      padding: 0;
+      margin-top: 10px;
+      margin-left: 22px;
+      color: #20ff00;
+    }
+    .chckbox>span {
+      margin: 10px;
+      padding-left: 10px;
+      color: yellow;
+      background: beige;
+    }
+span{
+font-size:small;
+font-size: 18px;
+
+}
+.btn{
+
+margin-top: 10px;
+text-align: center;
+background:#20ff00 ;
+outline: none;
+font-family: unset;
+text-transform: capitalize;
+border: 1px solid black;
+border-radius: 3px;
+}
+ a{
+text-decoration: none;
+color: rgb(19, 17, 18);
+font-family: serif;
+
+
+
+}
+.btn:hover{
+color:rgb(3, 2, 2);
+background-color: rgb(177, 218, 218);
+text-transform: uppercase;
+font-family: arial black;
+
+
+}
